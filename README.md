@@ -1,3 +1,7 @@
+ezdxf DEBs
+==========
+
+Get DEB files at [releases page](https://github.com/snegovick/ezdxf/releases).
 
 ezdxf
 =====
