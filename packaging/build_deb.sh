@@ -5,7 +5,7 @@ echo "Getting version"
 echo "======================"
 
 PYPKG_NAME="ezdxf"
-VSTRING=$(grep version setup.py | sed "s/ *version = \"//" | sed "s/\",//")
+VSTRING=$( python3 packaging/get_ezdxf_version.py )
 echo "VSTRING: ${VSTRING}"
 DEB_VERSION=$( git rev-list --all --count )
 echo "DEB_VERSION: ${DEB_VERSION}"
