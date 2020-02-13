@@ -3,6 +3,14 @@ ezdxf DEBs
 
 Get DEB files at [releases page](https://github.com/snegovick/ezdxf/releases).
 
+To build your own deb go to cloned repository and run:
+
+'''
+bash ./packaging/build_deb.sh
+'''
+
+Grab your package in deb\_dist.
+
 ezdxf
 =====
 
