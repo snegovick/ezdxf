@@ -5,9 +5,9 @@ Get DEB files at [releases page](https://github.com/snegovick/ezdxf/releases).
 
 To build your own deb go to cloned repository and run:
 
-'''
+```bash
 bash ./packaging/build_deb.sh
-'''
+```
 
 Grab your package in deb\_dist.
 
